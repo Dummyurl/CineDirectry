@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:background="@drawable/nw"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/search_banner"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <com.premsoft.cinedirectry.custom_font.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp"
+            android:text="Language :"/>
+
+        <com.weiwangcn.betterspinner.library.BetterSpinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/cat_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="--Select--"
+            android:textColor="#d2d0d0"
+            android:background="@drawable/xml_spinned"
+          />
+
+        <com.premsoft.cinedirectry.custom_font.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:text="Category :"/>
+
+
+        <com.weiwangcn.betterspinner.library.BetterSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--select--"
+            android:textColor="#d2d0d0"
+            android:background="@drawable/xml_spinned"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <EditText
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/et_search"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#f4f4f4"
+                android:hint="Search name (Ex:vijay,ajith)"/>
+
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <com.premsoft.cinedirectry.custom_font.MyTextView
+            android:id="@+id/getstarted"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:gravity="center"
+            android:text="Search"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

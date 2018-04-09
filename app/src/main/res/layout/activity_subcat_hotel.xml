@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_hotel">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/card_hotel"
+        android:layout_margin="30dp"
+        android:elevation="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/whiteback_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.premsoft.cinedirectry.custom_font.MyEditText
+            android:id="@+id/et_hotel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="13dp" />
+        <com.premsoft.cinedirectry.custom_font.MyTextView
+            android:id="@+id/create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Destination, hotel, landmark or address"
+             />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                   >
+                    <com.premsoft.cinedirectry.custom_font.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Check In"
+                        android:textStyle="bold"
+                        />
+
+                    <com.premsoft.cinedirectry.custom_font.MyEditText
+                        android:id="@+id/et_chickin"
+                        android:layout_width="137dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1">
+                        <com.premsoft.cinedirectry.custom_font.MyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Check Out"
+                            android:textStyle="bold"
+                            />
+
+                        <com.premsoft.cinedirectry.custom_font.MyEditText
+                            android:id="@+id/et_chickout"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:focusable="false"
+                            android:textSize="13dp" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+               >
+
+                <com.premsoft.cinedirectry.custom_font.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rooms"
+                    android:textStyle="bold"
+                    />
+
+                <com.weiwangcn.betterspinner.library.BetterSpinner
+                    android:id="@+id/sp_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <com.premsoft.cinedirectry.custom_font.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adults"
+                    android:textStyle="bold"
+                    />
+
+                <com.weiwangcn.betterspinner.library.BetterSpinner
+                    android:id="@+id/sp_adult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <com.premsoft.cinedirectry.custom_font.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Children"
+                    android:textStyle="bold"
+                    />
+
+                <com.weiwangcn.betterspinner.library.BetterSpinner
+                    android:id="@+id/sp_child"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <com.premsoft.cinedirectry.custom_font.MyTextView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/bottom"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:gravity="center"
+            android:text="Search"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+
+</RelativeLayout>

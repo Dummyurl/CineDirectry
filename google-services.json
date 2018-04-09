@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "823219060127",
+    "firebase_url": "https://hi-cinema-directory.firebaseio.com",
+    "project_id": "hi-cinema-directory",
+    "storage_bucket": "hi-cinema-directory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823219060127:android:bcd457ed7d22d0b6",
+        "android_client_info": {
+          "package_name": "com.prem.cinedirectory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823219060127-dq8b2ou9e6ou61dbkru2ejfrdvmhun83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_iP9X9FbBSkZRJ6AU3ush1xtkQZHbp8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

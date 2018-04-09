@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/choose_bg_screen">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:background="@drawable/logbg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <com.premsoft.cinedirectry.custom_font.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold"
+                android:text="Address :"/>
+
+            <com.premsoft.cinedirectry.custom_font.MyTextView
+                android:layout_marginTop="8dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:layout_marginBottom="15dp"
+                android:text="Hi Cinema Directory ,\n
+Plot 86, Sathyamoorthy Street,\n
+Deveraj Nagar,\n
+Saligramam, Chennai,\n
+Tamilnadu. India.Pincode- 600093\n\n
+web:www.hicinemadirectory.com\n
+email:info@hicinemadirectory.com"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:elevation="4dp">
+
+
+
+        <LinearLayout
+            android:background="@drawable/logbg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical">
+
+            <com.premsoft.cinedirectry.custom_font.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Technical Support :"/>
+
+            <com.premsoft.cinedirectry.custom_font.MyTextView
+                android:layout_marginTop="8dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginBottom="15dp"
+                android:textStyle="italic"
+
+                android:text="Premsoft Software Technologies\n 137/A Annapoorna Layout\nNew Sidhapudur \n
+Coimbatore - 641041\n web:www.premsotst.com \n email:info@premsoftst.com"
+/>
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:elevation="4dp">
+
+
+
+        <LinearLayout
+            android:background="@drawable/logbg"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+
+            <com.premsoft.cinedirectry.custom_font.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Customer care Number :"/>
+
+            <com.premsoft.cinedirectry.custom_font.MyTextView
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:layout_marginBottom="15dp"
+                android:text="\n
+Office: 0422 4981321\n
+Mobile: +91 9943454320\n"/>
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:elevation="4dp">-->
+
+
+
+                <!--<LinearLayout-->
+                    <!--android:background="@drawable/logbg"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="190dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<com.premsoft.cinedirectry.custom_font.MyTextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_marginLeft="8dp"-->
+                        <!--android:layout_marginBottom="8dp"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:textColor="#fff"-->
+                        <!--android:text="Technical Support :"/>-->
+
+                    <!--<com.premsoft.cinedirectry.custom_font.MyTextView-->
+                        <!--android:layout_marginTop="8dp"-->
+                        <!--android:textColor="#fff"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:layout_marginBottom="15dp"-->
+                        <!--android:textStyle="italic"-->
+                        <!--android:text="Premsoft Software Technologies\n 137/A Annapoorna Layout\nNew Sidhapudur \n-->
+<!--Coimbatore - 641041\n web:www.premsotst.com \n email:info@premsoftst.com"-->
+                        <!--/>-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/compliant"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:elevation="4dp">
+
+
+
+                <LinearLayout
+                    android:background="@drawable/logbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+                    <com.premsoft.cinedirectry.custom_font.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:text="Complaint:"/>
+
+                    <com.premsoft.cinedirectry.custom_font.MyTextView
+                        android:textColor="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="15dp"
+                        android:text="Raise the ticket\n
+Click here"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFEFF">
+
+    <com.skyfishjy.library.RippleBackground
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        app:rb_color="#7C3F8D"
+        app:rb_radius="90dp"
+        app:rb_rippleAmount="6"
+        app:rb_duration="3000"
+        app:rb_scale="4">
+
+<ImageView
+    android:layout_width="190dp"
+    android:layout_height="150dp"
+    android:id="@+id/image"
+    android:src="@drawable/logo"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"/>
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+
+</RelativeLayout>
